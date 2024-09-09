@@ -1,0 +1,539 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden ;
+}
+.header{margin-left: 90px;
+    display: flex;
+    align-items: center;
+    gap: 300px;
+    letter-spacing: 2px;
+}
+.logo-area{
+display: flex;
+align-items: center;
+flex-direction: row;
+}
+.logo-name{margin-left: 10px;
+color:  rgb(90, 161, 20);
+font-weight: 400;
+letter-spacing: 2px;
+}
+.l-n-g{
+color:black;
+font-weight: 700;
+}
+
+.nav-link{display: flex;
+gap: 35px;
+list-style: none;
+}
+.nav-link a{
+text-decoration: none;
+color: black;
+font-weight: 400;
+}
+
+ul :hover{
+  cursor: pointer;
+
+color: rgb(0, 128, 34);
+scale: 1.1;
+/* text-shadow: 2px 2px 2px brown; */
+/* transition: ease-in-out; */
+transition: ease;
+}
+.hero-page-tree{
+  display: none;
+}
+
+.hero-section{
+margin-top: 90px;
+margin-left: 90px;
+}
+
+.landing-page{margin-left: 110px;
+font-size: 2rem;
+}
+
+.mr-lorem{max-width: 395px;
+margin-left: 110px;
+text-align: justify;
+/* text-align: center; */
+/* justify-content: baseline; */
+/* justify-content: stretch; */
+}
+
+.big-text-go{margin-left: -110px;
+font-size: 7rem;    
+}
+
+.go-where{margin-left: 110px;
+color:#418101d2;
+font-size: 2rem;
+}
+
+.btn{
+border: none;
+background-color: green;
+color: white;
+padding: 5px 15px;
+transition: 0.3s;
+margin-left: 320px;
+padding: 10px 20px;
+border-radius: 50px;
+}
+
+.my-btn :hover{
+scale: 1.2;
+box-shadow: 3px 3px 8px black;
+}
+
+
+
+.home-back-pic img{
+/* max-height: 400px; */
+margin-top: -80px;
+height:680px;
+width: 790px;
+z-index: -1;
+position: absolute;
+margin-left: 673px;
+}
+/* .personal-space{
+margin-top: 195px;
+min-height: 60px; background-color: brown;
+} */
+
+.hrr{
+    margin-top: 164px;
+}
+.bring-tree{
+    background: linear-gradient(to bottom,brown, green,);
+    background-color: green;color: white;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 12px;
+    letter-spacing: 3px;
+    translate: 275px -15px;
+    /* margin-top: -100px; 
+    margin-left: 100px;*/
+}
+.present-cards{
+display: flex;color: darkgreen;
+flex-direction: column;
+align-items: center;
+}
+.present-cards img{margin-top: 2px;
+width: 100px;
+height: 4px;
+}
+.vibes{margin-top: 100px;
+font-weight: 700;
+font-size: 2rem;
+letter-spacing: 2px;
+
+}
+.line{
+
+/* font-size: 2rem;
+
+text-align: center;
+font-weight: 800;
+color: rgb(99, 99, 17); */
+}
+.planting{margin-top: 30px;
+justify-content: center;
+gap: 40px;
+display: flex;
+/* flex-wrap: wrap; */
+}
+.planting img{
+height:400px;
+width: 330px;
+border-radius: 25px;
+}
+.focus{
+width: 320px;
+}
+.flower, .nature-beauty, .leaf{
+font-weight: 600;
+color: darkgreen;
+letter-spacing: 2px;
+}
+.thoughts-about-nature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(190, 217, 240);
+    padding-bottom: 25px;
+    /* padding-left: 60px; */
+}
+
+.thought-in-brief{
+    font-size: 2.1vw;
+    max-width: 580px;
+    /* text-align: justify; */
+    color: green;
+}.space{
+    visibility: hidden;
+}
+
+.round-pic img{
+    max-width: 80px;
+    border-radius: 50px;
+}
+.pic-owner-name{
+    color: rgb(15, 85, 15);
+    font-weight: 400;
+    letter-spacing: 2px;
+    }
+    .description-about-us{
+        margin-left: 200px;
+        display: flex;
+        gap: 200px;
+    }
+    .about-container{
+        margin-top: 90px;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .about-step2{
+        font-size: 1.7rem;
+        max-width: 440px;
+        margin-top: 20px;
+    }
+    .about-step3{
+        max-width:420px ;
+        font-size: 1rem;
+        margin-top: 20px;
+    }
+    .about-container button{
+        margin-top: 20px;
+        max-width: 120px;
+        background-color: rgb(235, 207, 43);
+        border: none;
+        padding: 8px 17px;
+        transition: 0.5s;
+    }
+    .let-talk :hover{
+        scale: 1.2;
+box-shadow: 3px 3px 8px black;
+    }
+    .description-about-us img{
+      height: 415px;
+      width: 330px;
+      transition: 0.3s;
+    }
+    .picer :hover{
+        scale: 1.1;
+        box-shadow: 4px 4px 5px black,
+        -4px -4px 5px black;
+    }
+    .conclution{background: url(main-2.png);
+     min-height: 70vh;
+     background-position: bottom center;
+     background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .question{margin-top: 140px;
+        font-size: 50px;
+        color: rgb(27, 96, 27);
+    }
+    .conclution button{
+        margin-top: 20px;
+        max-width: 120px;
+        background-color: rgb(235, 207, 43);
+        border: none;
+        padding: 8px 17px;
+        transition: 0.5s;
+    }
+  .about-features{
+    text-align: center;
+    margin-top: 20px;
+    max-width: 480px;
+    font-size: 20px;
+    color: rgb(27, 96, 27);
+  }
+  .bl{
+    visibility: hidden;
+  }
+  .intero-footer{
+    color: #0f42ebd2;
+  }
+  .footer{
+    background: url(footer-back.jpg);
+    max-width: 1550px;
+    height: 225px;
+    
+    
+    background-position: left;
+    display: flex;
+    gap: 250px;
+    color: white;
+   margin-top: -10px;
+   margin-bottom: -40px;
+  }
+  .footer-contanier1{
+    margin-left: 190px;
+    margin-top: 20px;
+  }
+  .footer-logo{
+    display: flex;
+    align-items: center;
+  }
+  .foot-address{
+    max-width: 210px;
+    margin-top: 10px;
+    color: rgb(208, 97, 17);
+  }
+  
+  .footer-contanier2, .footer-contanier3 {
+    margin-top: 16px;
+    margin-top: 38px;
+  }
+  .only-margin{
+    margin-top: 10px;
+  }
+  .ix{color: white;
+    font-weight: 700;
+  }
+  
+  .ft-text{
+font-weight: 700;
+letter-spacing: 2px;
+cursor: pointer;
+  }
+  .s-ft{
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  .clam{
+    text-align: center;
+    translate: -30px -7px;
+    color: white;
+    z-index: 1;
+    }
+    .sidebar{
+      display: none;
+    }
+    .hamburger{
+      display: none;
+    }
+   .S-hamburger{
+    display: none;
+   }
+    @media screen and (max-width: 520px) {
+      
+      body{
+        overflow-x: hidden;
+      }
+  .header{
+    gap: 0;
+    margin-left: 2px;
+    padding: 0px;
+  }
+  .logo-area{
+   margin-top: 10px;
+  }
+  .logo-name{margin-left: 0px;
+    font-size: 20px;
+  }
+     
+      .nav-link{display: none;
+        padding: 80px 40px 30px 40px;
+
+        background: gray;
+       z-index: 1;
+       margin-left: -500px;
+        display: flex;
+        flex-direction: column;
+      }
+      .active{display: none;
+        margin-top: 5px;
+        margin-left: 70px;
+      }
+      .absolute{
+        position: relative;
+
+      }
+      .nav-link li {
+        width: 120px;
+        flex-direction: column;
+        
+      /* max-width: 100px; */
+      }
+     
+      
+      .sidebar {display: block;
+        background-color: #F3F7F4;
+        position: fixed;
+        top: 0px;
+        left: 450px;
+        width: 270px;
+        height: 50%;
+        background-color: #AFC2D5;
+        color: #fff;
+        transition: left 0.3s ease-in-out;
+        font-family: 'Open Sans', sans-serif;
+      }
+      
+      .sidebar.open {
+        left: 160px;
+      }
+      
+      .hamburger {
+        position: fixed;
+        /* top: 16px; */
+        left: 10px;
+       /* right: 15px; */
+        background-color: transparent;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        z-index: 2;
+        color: #070A0D;
+        /* color: #fff; */
+        /* background-color: #070A0D; */
+        font-size: 25px;
+        border-radius: 20px;
+        padding: 10px 20px;
+      }
+      .S-hamburger{
+        display: block;
+        position: absolute;
+        top:20px; left:350px;
+        z-index: 1;
+      }
+
+      .menu {
+        list-style: none;
+        padding: 0;
+        margin-top: 70px;
+      }
+      
+      .menu li {margin-top: 20px;
+        text-align: center;
+        padding: 10px;
+      }
+      
+      .menu li a {
+        text-decoration: none;
+        color: #000;
+      }
+      a{
+        list-style: none;
+      }
+      .home-back-pic{
+        display: none;
+      }
+      .nature{
+
+      }
+      .planting{
+      align-items: center;
+      text-align: center;
+      }
+      .hrr, .bring-tree{
+        display: none;
+      }
+      .present-cards{
+        margin-top: -30px;
+      }
+      .hero-page-tree{
+       
+        display: block;
+        margin-left: 30px;
+        /* margin-top: -130px; */
+      }
+      .hero-section{
+       margin-left: 0;
+       margin-top: 20px;
+      }
+
+      .thought-in-brief{
+        max-width: 80%;
+        text-align: center;
+        font-size: 12px;
+      }
+
+      .go-where{
+        font-size: 18px;
+        /* margin-left: 140px; */
+        margin-right: 0;
+        margin-left: 40px;
+      }
+      .big-text-go{letter-spacing: 8px;
+
+        font-size: 50px;
+        margin-left: -10px;
+      }
+      .landing-page{
+        font-size: 13px;
+        margin-left: 40px;
+      }
+      .mr-lorem{
+        margin-left: 40px;
+        max-width: 80%;
+      }
+      .my-btn button{
+        width: 150px;
+        margin-left: 100px;
+        translate: 09px -30px;
+      }
+      .planting{
+        flex-wrap: wrap;
+      }
+      .about-features{
+        max-width: 80%;
+      }
+      .description-about-us{
+        margin-left: 30px;
+        text-align: justify;
+        justify-items: center;
+        gap: 30px;
+        max-width: 80%;
+        flex-direction: column;
+      }
+      .conclution{
+        min-height: 40vh;
+      }
+      .footer{
+        /* flex-direction: column; */
+        max-width: 100%;
+      }
+      .footer-contanier1{
+        font-size: 8px;
+        
+        margin-left: 10px;
+      }
+       .footer-contanier2{
+      /* color: black; */
+      font-size: 5px;
+      margin-left: -180px;
+      margin-top: 80px;
+      }
+      .footer-contanier3{
+        /* color: black; */
+        font-size: 5px;
+        margin-left: -150px;
+        margin-top: 80px;
+      } 
+      .clam{
+        font-size: 10px;
+        margin-left: 90px;
+        margin-top: 5px;
+      }
+     /* .about-step1{
+      width: 50vw;
+      align-items: center;
+      text-align: justify;
+      text-align: center;
+     } */
+    }
